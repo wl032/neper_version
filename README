@@ -1,0 +1,7 @@
+./my_sql.py --show
+./my_sql.py --add gene_1
+
+./inp2mysql.py -i mesh_gene_1 -o gene_1 --C4
+./mysql2inp.py -i gene_1 -o gene_1_new --C4
+
+./my_sql.py --del gene_1
